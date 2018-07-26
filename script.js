@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://safe-river-39436.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'ec2-54-204-18-53.compute-1.amazonaws.com';
+  const trelloApiRoot = 'https://safe-river-39436.herokuapp.com';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
